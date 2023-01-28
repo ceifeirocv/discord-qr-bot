@@ -1,6 +1,6 @@
 
 const { REST, Routes } = require('discord.js');
-const fs = require('node:fs');
+const fs = require('fs');
 require('dotenv/config');
 
 const TOKEN = process.env.QR_BOT_TOKEN;
